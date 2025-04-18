@@ -3,8 +3,9 @@
 ```markdown
 # `parseItems`
 
-A utility function for parsing sequences of structured binary data from a `Uint8Array`, commonly used in protocol parsers like TLS.
-@version __VERSION__
+A utility function for parsing sequences of structured binary data 
+from a `Uint8Array`, commonly used in protocol parsers like TLS.
+@version 0.0.2
 
 ---
 
