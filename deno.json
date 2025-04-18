@@ -1,0 +1,29 @@
+{
+  "name": "@tls/parser",
+  "version": "0.0.1",
+  "exports": "./src/mod.ts",
+  "publish": {
+    "exclude": [
+      "dist/"
+    ]
+  },
+  "tasks": {
+    "test": "deno test",
+    "lint": "deno lint"
+  },
+  "lint": {
+    "include": [
+      "src/"
+    ],
+    "exclude": [
+      "dist/"
+    ],
+    "rules": {
+      "exclude": [
+        "no-slow-types"
+      ]
+    }
+  },
+  "imports": {
+  }
+}
