@@ -5,7 +5,7 @@
 
 A utility function for parsing sequences of structured binary data 
 from a `Uint8Array`, commonly used in protocol parsers like TLS.
-@version 0.0.2
+@version 0.0.3
 
 ---
 

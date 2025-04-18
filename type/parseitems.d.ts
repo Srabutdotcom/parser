@@ -8,7 +8,7 @@
  * @param Fn - A class or factory with a static `.from(Uint8Array): T` method. Returned `T` must have a `.length` property.
  * @param option - Optional configuration for parsing behavior.
  * @returns The populated `store` (or a new one if none provided) containing parsed items.
- * @version 0.0.2
+ * @version 0.0.3
  */
 export declare function parseItems<T>(
    byte: Uint8Array,

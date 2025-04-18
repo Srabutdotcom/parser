@@ -1,3 +1,4 @@
+//@ts-self-types="../type/parseitems.d.ts"
 /**
  * Parses a sequence of items from a byte array, starting at a given offset.
  *
